@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<a href="https://github.com/yousiki/">
+  <img align="top" src="https://github-readme-stats.yousiki.vercel.app/api?username=yousiki&count_private=true&show_icons=true" />
+</a>
+<a href="https://github.com/yousiki/">
+  <img align="top" src="https://github-readme-stats.yousiki.vercel.app/api/top-langs/?username=yousiki" />
+</a>
