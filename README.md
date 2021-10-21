@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/YOUSIKI?tab=repositories](https://github.com/YOUSIKI?tab=repositories)
 
-- 💬 Ask me about **PyTorch**
+- 💬 Ask me about **Python, PyTorch, PyTorch-Lightning, TensorFlow2**
 
 - 📫 How to reach me **you.siki@outlook.com**
 
