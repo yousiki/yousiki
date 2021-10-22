@@ -5,11 +5,15 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yousiki" alt="yousiki" /></a> </p>
 
+<p align="left"> <a href="https://twitter.com/__yousiki__" target="blank"><img src="https://img.shields.io/twitter/follow/__yousiki__?logo=twitter&style=for-the-badge" alt="__yousiki__" /></a> </p>
+
 - 🔭 I’m currently working on [YOUSIKI/lightning-hydra-template](https://github.com/YOUSIKI/lightning-hydra-template)
 
 - 🌱 I’m currently learning **computational photography and computer vision**
 
 - 👨‍💻 All of my projects are available at [https://github.com/YOUSIKI?tab=repositories](https://github.com/YOUSIKI?tab=repositories)
+
+- 📝 I regularly write articles on [https://yousiki.github.io](https://yousiki.github.io)
 
 - 💬 Ask me about **Python, PyTorch, PyTorch-Lightning, TensorFlow2**
 
@@ -17,7 +21,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://twitter.com/__yousiki__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="__yousiki__" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/yousiki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yousiki" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/9173001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="9173001" height="30" width="40" /></a>
 <a href="https://kaggle.com/yousiki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="yousiki" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/yousiki" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="yousiki" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/yousiki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="yousiki" height="30" width="40" /></a>
