@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [YOUSIKI/lightning-hydra-template](https://github.com/YOUSIKI/lightning-hydra-template)
 
-- 🌱 I’m currently learning **computational photography and computer vision**
+- 🌱 I’m currently learning **computational photography, computer vision, and Haskell**
 
 - 👨‍💻 All of my projects are available at [https://github.com/YOUSIKI?tab=repositories](https://github.com/YOUSIKI?tab=repositories)
 
