@@ -20,5 +20,4 @@
 
 <p>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=yousiki&show_icons=true&locale=en" alt="yousiki" />
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=yousiki&show_icons=true&locale=en&layout=compact&langs_count=9" alt="yousiki" />
 </p>
