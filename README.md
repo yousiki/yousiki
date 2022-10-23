@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm YouSiki</h1>
-<h3 align="center">An undergraduate student from Peking University, China</h3>
+<h3 align="center"><strike>An undergraduate student from Peking University, China</strike></h3>
+<h3 align="center">Now a Ph.D student at Peking University, China 🤣</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=yousiki&label=Profile%20views&color=0e75b6&style=flat" alt="yousiki" /> </p>
 
