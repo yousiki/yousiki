@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, this is YouSiki</h1>
-<h3 align="center">Ph.D student from Peking University, China</h3>
+<h3 align="center">I'm a PhD student from Peking University, China</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=yousiki&label=Profile%20views&color=0e75b6&style=flat" alt="yousiki" /> </p>
 
@@ -11,4 +11,4 @@
 
 - 💬 Ask me about **JAX**, **PyTorch**, **TensorFlow**
 
-- 📫 Reach me by **[email](mailto:you.siki@outlook.com)**
+- 📫 Reach me by **[Email](mailto:you.siki@outlook.com)**
