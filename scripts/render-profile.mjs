@@ -83,10 +83,10 @@ async function main() {
 
   fs.mkdirSync(BADGE_DIR, { recursive: true });
   const badges = [
-    { file: "website.svg",  label: "WEBSITE",  value: "siki.moe" },
-    { file: "linkedin.svg", label: "LINKEDIN", value: "yousiki" },
-    { file: "scholar.svg",  label: "SCHOLAR",  value: "publications" },
-    { file: "twitter.svg",  label: "TWITTER",  value: "@__yousiki__" },
+    { file: "website.svg",  label: "WEBSITE",     value: "https://siki.moe" },
+    { file: "linkedin.svg", label: "LINKEDIN",    value: "yousiki" },
+    { file: "scholar.svg",  label: "PUBLICATION", value: "google scholar" },
+    { file: "twitter.svg",  label: "TWITTER",     value: "@__yousiki__" },
   ];
   for (const b of badges) {
     fs.writeFileSync(path.join(BADGE_DIR, b.file), renderBadge(b.label, b.value));
