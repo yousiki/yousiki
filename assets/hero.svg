@@ -1,108 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" role="img" aria-label="YouSiki — vibe coder, PhD, open source enjoyer" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Hi — I'm YouSiki. PhD student by day, vibe coder by night." width="100%">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FAF9F5"/>
       <stop offset="1" stop-color="#F0EEE6"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#D97757" stop-opacity="0.22"/>
+    <radialGradient id="heroGlow" cx="0.85" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="soft" x="-5%" y="-5%" width="110%" height="110%">
-      <feGaussianBlur stdDeviation="14"/>
+    </radialGradient>
+    <filter id="heroSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="22"/>
     </filter>
     <style>
       .serif { font-family: ui-serif, "Source Serif Pro", "Iowan Old Style", Georgia, "Times New Roman", serif; }
       .sans  { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, system-ui, sans-serif; }
       .mono  { font-family: "SF Mono", ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
-      .fill-ink { fill: #141413; }
-      .fill-muted { fill: #5E5D59; }
-      .fill-coral { fill: #D97757; }
-      .fill-coral-deep { fill: #C6613F; }
+      .ink { fill: #141413; }
+      .muted { fill: #5E5D59; }
+      .coral { fill: #D97757; }
     </style>
   </defs>
 
-  <rect width="1200" height="460" rx="24" fill="url(#bg)"/>
-  <circle cx="1050" cy="80" r="220" fill="url(#glow)" filter="url(#soft)"/>
+  <rect width="900" height="360" rx="20" fill="url(#heroBg)"/>
+  <circle cx="780" cy="60" r="220" fill="url(#heroGlow)" filter="url(#heroSoft)"/>
 
   <!-- window chrome -->
-  <g transform="translate(40,32)">
-    <circle cx="8"  cy="8" r="7" fill="#E8A598"/>
-    <circle cx="32" cy="8" r="7" fill="#E8D598"/>
-    <circle cx="56" cy="8" r="7" fill="#B8D5A3"/>
-    <text x="92" y="12" class="mono fill-muted" font-size="12">~ / yousiki / profile.md</text>
-    <g transform="translate(1028,0)">
-      <rect x="0" y="-4" width="90" height="24" rx="12" fill="#D97757" fill-opacity="0.12"/>
-      <circle cx="14" cy="8" r="3" class="fill-coral"/>
-      <text x="24" y="12" class="mono fill-coral" font-size="11" font-weight="600">● live</text>
+  <g transform="translate(32,28)">
+    <circle cx="7"  cy="7" r="6" fill="#E8A598"/>
+    <circle cx="28" cy="7" r="6" fill="#E8D598"/>
+    <circle cx="49" cy="7" r="6" fill="#B8D5A3"/>
+    <text x="84" y="11" class="mono muted" font-size="12">~ / yousiki / profile.md</text>
+    <g transform="translate(740,-2)">
+      <rect x="0" y="0" width="96" height="20" rx="10" fill="#D97757" fill-opacity="0.12"/>
+      <circle cx="12" cy="10" r="3" class="coral"/>
+      <text x="22" y="14" class="mono coral" font-size="11" font-weight="600">● live · opus</text>
     </g>
   </g>
 
   <!-- user prompt -->
-  <g transform="translate(60,96)">
-    <text class="mono fill-muted" font-size="12" letter-spacing="1.5">YOU</text>
-    <text y="28" class="sans fill-ink" font-size="20" font-weight="500">who is yousiki?</text>
+  <g transform="translate(40,88)">
+    <text class="mono muted" font-size="11" letter-spacing="1.5">YOU</text>
+    <text y="24" class="sans ink" font-size="17" font-weight="500">who is yousiki?</text>
   </g>
 
   <!-- divider -->
-  <line x1="60" y1="156" x2="1140" y2="156" stroke="#D97757" stroke-opacity="0.18" stroke-width="1"/>
+  <line x1="40" y1="140" x2="860" y2="140" stroke="#D97757" stroke-opacity="0.18"/>
 
-  <!-- claude reply header -->
-  <g transform="translate(60,188)">
-    <!-- asterisk / claude mark -->
-    <g transform="translate(0,-12)">
-      <path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" class="fill-coral"/>
-    </g>
-    <text x="36" y="6" class="mono fill-muted" font-size="12" letter-spacing="1.5">CLAUDE</text>
+  <!-- claude mark + label -->
+  <g transform="translate(40,170)">
+    <path d="M8 -6 L9.6 0.4 L16 2 L9.6 3.6 L8 10 L6.4 3.6 L0 2 L6.4 0.4 Z" class="coral"/>
+    <text x="26" y="4" class="mono muted" font-size="11" letter-spacing="1.5">CLAUDE</text>
   </g>
 
-  <!-- hero headline -->
-  <g transform="translate(60,246)">
-    <text class="serif fill-ink" font-size="56" font-weight="500" letter-spacing="-1.5">Hi — I'm <tspan class="fill-coral" font-style="italic">YouSiki</tspan>.</text>
-    <text y="56" class="serif fill-ink" font-size="30" font-weight="400" letter-spacing="-0.5" fill-opacity="0.82">
-      PhD student by day. <tspan class="fill-coral" font-style="italic">Vibe coder</tspan> by night.
+  <!-- headline -->
+  <g transform="translate(40,228)">
+    <text class="serif ink" font-size="52" font-weight="500" letter-spacing="-1.4">Hi — I'm <tspan class="coral" font-style="italic">YouSiki</tspan>.</text>
+    <text y="44" class="serif ink" font-size="24" font-weight="400" letter-spacing="-0.3" fill-opacity="0.82">
+      PhD student by day. <tspan class="coral" font-style="italic">Vibe coder</tspan> by night.
     </text>
   </g>
 
-  <!-- tag chips -->
-  <g transform="translate(60,370)" class="sans">
+  <!-- chip row -->
+  <g transform="translate(40,312)" class="sans">
     <g>
-      <rect x="0" y="0" width="130" height="32" rx="16" fill="#2C2824" fill-opacity="0.06"/>
-      <text x="18" y="21" font-size="13" class="fill-ink" font-weight="500">✳︎ Peking Univ.</text>
+      <rect width="124" height="26" rx="13" fill="#141413" fill-opacity="0.06"/>
+      <text x="15" y="17" font-size="12" class="ink" font-weight="500">✳︎ Peking Univ.</text>
     </g>
-    <g transform="translate(142,0)">
-      <rect x="0" y="0" width="140" height="32" rx="16" fill="#D97757" fill-opacity="0.14"/>
-      <text x="18" y="21" font-size="13" class="fill-coral" font-weight="600">claude-code</text>
+    <g transform="translate(134,0)">
+      <rect width="96" height="26" rx="13" fill="#D97757" fill-opacity="0.14"/>
+      <text x="15" y="17" font-size="12" class="coral" font-weight="600">claude code</text>
     </g>
-    <g transform="translate(294,0)">
-      <rect x="0" y="0" width="158" height="32" rx="16" fill="#D97757" fill-opacity="0.14"/>
-      <text x="18" y="21" font-size="13" class="fill-coral" font-weight="600">oh-my-opencode</text>
+    <g transform="translate(240,0)">
+      <rect width="128" height="26" rx="13" fill="#D97757" fill-opacity="0.14"/>
+      <text x="15" y="17" font-size="12" class="coral" font-weight="600">oh-my-opencode</text>
     </g>
-    <g transform="translate(464,0)">
-      <rect x="0" y="0" width="78" height="32" rx="16" fill="#D97757" fill-opacity="0.14"/>
-      <text x="18" y="21" font-size="13" class="fill-coral" font-weight="600">codex</text>
+    <g transform="translate(378,0)">
+      <rect width="64" height="26" rx="13" fill="#D97757" fill-opacity="0.14"/>
+      <text x="15" y="17" font-size="12" class="coral" font-weight="600">codex</text>
     </g>
-    <g transform="translate(554,0)">
-      <rect x="0" y="0" width="160" height="32" rx="16" fill="#141413" fill-opacity="0.06"/>
-      <text x="18" y="21" font-size="13" class="fill-ink" font-weight="500">open source enjoyer</text>
-    </g>
-  </g>
 
-  <!-- right column stats -->
-  <g transform="translate(820,196)" class="sans">
-    <text y="0" class="mono fill-muted" font-size="11" letter-spacing="1.5">CURRENTLY</text>
-    <text y="34" class="serif fill-ink" font-size="22" font-weight="500">shipping ideas</text>
-    <text y="58" class="serif fill-muted" font-size="16" font-style="italic">through conversation.</text>
-
-    <g transform="translate(0,96)">
-      <line x1="0" y1="0" x2="280" y2="0" stroke="#D97757" stroke-opacity="0.25"/>
-      <text y="30" class="mono fill-muted" font-size="11" letter-spacing="1.5">VIBE STACK</text>
-      <text y="62" class="mono fill-ink" font-size="15" font-weight="600">
-        <tspan class="fill-coral">$</tspan> claude · opencode · codex
-      </text>
-      <text y="88" class="mono fill-ink" font-size="15" font-weight="500" fill-opacity="0.7">
-        <tspan class="fill-coral">$</tspan> tokscale · rtk · ccs · nix
-      </text>
+    <!-- inline social links on the right -->
+    <g transform="translate(540,0)">
+      <text x="0" y="17" font-size="12" class="muted" font-weight="500">linkedin</text>
+      <text x="56" y="17" font-size="12" class="muted">·</text>
+      <text x="68" y="17" font-size="12" class="muted" font-weight="500">x</text>
+      <text x="82" y="17" font-size="12" class="muted">·</text>
+      <text x="94" y="17" font-size="12" class="coral" font-weight="600">tokscale</text>
+      <text x="146" y="17" font-size="12" class="muted">·</text>
+      <text x="158" y="17" font-size="12" class="muted" font-weight="500">siki.moe</text>
     </g>
   </g>
 </svg>
