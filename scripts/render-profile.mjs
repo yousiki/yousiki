@@ -161,10 +161,10 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <g transform="translate(40,140)">
     <text class="serif ink" font-size="46" font-weight="500" letter-spacing="-1.4">Hi — I'm <tspan class="coral" font-style="italic">YouSiki</tspan>.</text>
     <text y="36" class="serif ink" font-size="22" font-weight="400" letter-spacing="-0.3" fill-opacity="0.82">
-      PhD student by day. <tspan class="coral" font-style="italic">Vibe coder</tspan> by night.
+      <tspan class="coral" font-style="italic">PhD student</tspan> by day. <tspan class="coral" font-style="italic">Vibe coder</tspan> by night.
     </text>
     <text y="68" class="sans muted" font-size="13" font-style="italic">
-      Computer vision &amp; <tspan class="ink" font-weight="500" font-style="normal">world models</tspan> · Beijing &amp; Tokyo.
+      Computer vision, <tspan class="ink" font-weight="500" font-style="normal">neuromorphic camera</tspan>, <tspan class="ink" font-weight="500" font-style="normal">world models</tspan> · Beijing &amp; Tokyo.
     </text>
   </g>
 
@@ -172,15 +172,15 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <g transform="translate(560,130)" class="sans">
     <g>
       <rect width="300" height="34" rx="17" fill="#D97757" fill-opacity="0.14"/>
-      <path d="M20 17 L22 11 L28 9 L22 7 L20 1 L18 7 L12 9 L18 11 Z" fill="#D97757"/>
+      <path d="M20 25 L22 19 L28 17 L22 15 L20 9 L18 15 L12 17 L18 19 Z" fill="#D97757"/>
       <text x="40" y="22" font-size="13" class="coral" font-weight="600">Peking University</text>
-      <text x="280" y="22" font-size="10" class="muted" letter-spacing="1" text-anchor="end">BEIJING</text>
+      <text x="280" y="22" font-size="11" class="muted" text-anchor="end">Beijing</text>
     </g>
     <g transform="translate(0,44)">
       <rect width="300" height="34" rx="17" fill="#D97757" fill-opacity="0.14"/>
-      <path d="M20 17 L22 11 L28 9 L22 7 L20 1 L18 7 L12 9 L18 11 Z" fill="#D97757"/>
+      <path d="M20 25 L22 19 L28 17 L22 15 L20 9 L18 15 L12 17 L18 19 Z" fill="#D97757"/>
       <text x="40" y="22" font-size="13" class="coral" font-weight="600">Shanda AI Research</text>
-      <text x="280" y="22" font-size="10" class="muted" letter-spacing="1" text-anchor="end">TOKYO</text>
+      <text x="280" y="22" font-size="11" class="muted" text-anchor="end">Tokyo</text>
     </g>
   </g>
 
@@ -188,24 +188,24 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <line x1="40" y1="250" x2="860" y2="250" stroke="#D97757" stroke-opacity="0.22"/>
   ${rotatingStar({ x: 48, y: 274, dur: 22 })}
   <text x="64" y="278" class="mono muted" font-size="11" letter-spacing="2">VIBE · CODING · DASHBOARD</text>
-  <text x="844" y="278" class="mono muted" font-size="11" letter-spacing="1.5" text-anchor="end">
-    <tspan class="coral" font-weight="600">●</tspan> LIVE · tokscale.ai/u/yousiki
+  <text x="844" y="278" class="mono muted" font-size="11" letter-spacing="1" text-anchor="end">
+    <tspan class="coral" font-weight="600">●</tspan> live · tokscale.ai/u/yousiki
   </text>
 
   <g transform="translate(40,318)">
-    <text y="0" class="mono muted" font-size="11" letter-spacing="1.5">TOKENS</text>
+    <text y="0" class="mono muted" font-size="11" letter-spacing="1">tokens</text>
     <text y="52" class="serif coral" font-size="54" font-weight="500" letter-spacing="-1.8">${esc(tokens)}</text>
     <text y="76" class="sans muted" font-size="12" font-style="italic">conjured with agents</text>
   </g>
   <line x1="296" y1="322" x2="296" y2="400" stroke="#D97757" stroke-opacity="0.16" stroke-dasharray="2 4"/>
   <g transform="translate(328,318)">
-    <text y="0" class="mono muted" font-size="11" letter-spacing="1.5">SPENT</text>
+    <text y="0" class="mono muted" font-size="11" letter-spacing="1">spent</text>
     <text y="52" class="serif ink" font-size="54" font-weight="500" letter-spacing="-1.8">${esc(cost)}</text>
     <text y="76" class="sans muted" font-size="12" font-style="italic">cost of thinking out loud</text>
   </g>
   <line x1="604" y1="322" x2="604" y2="400" stroke="#D97757" stroke-opacity="0.16" stroke-dasharray="2 4"/>
   <g transform="translate(636,318)">
-    <text y="0" class="mono muted" font-size="11" letter-spacing="1.5">GLOBAL RANK</text>
+    <text y="0" class="mono muted" font-size="11" letter-spacing="1">global rank</text>
     <text y="52" class="serif deep-coral" font-size="54" font-weight="500" letter-spacing="-1.8">${esc(rank)}</text>
     <text y="76" class="sans muted" font-size="12" font-style="italic">on the tokscale leaderboard</text>
   </g>
@@ -224,11 +224,11 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <line x1="40" y1="450" x2="860" y2="450" stroke="#D97757" stroke-opacity="0.22"/>
   ${rotatingStar({ x: 48, y: 474, dur: 26 })}
   <text x="64" y="478" class="mono muted" font-size="11" letter-spacing="2">VIBE · CODING · STACK</text>
-  <text x="844" y="478" class="mono muted" font-size="11" letter-spacing="1.5" text-anchor="end">3 · COMPANIONS</text>
+  <text x="844" y="478" class="mono muted" font-size="11" letter-spacing="1" text-anchor="end">3 · companions</text>
 
-  ${stackCard({ x: 40,  y: 504, delay: 0,     label: "PRIMARY AGENT", name: "claude ", italic: "code",     caption: "best model so far",                 models: "opus · sonnet · haiku" })}
-  ${stackCard({ x: 328, y: 504, delay: -0.93, label: "SECOND BRAIN",  name: "",        italic: "codex",    caption: "best consultant & reviewer",        models: "gpt-5.4 xhigh" })}
-  ${stackCard({ x: 624, y: 504, delay: -1.87, label: "FIRST LOVE",    name: "oh-my-",  italic: "opencode", caption: "favorite philosophy, open society", models: "GLM · Mimo · Kimi · …" })}
+  ${stackCard({ x: 40,  y: 504, delay: 0,     label: "primary agent", pre: "",        italic: "claude",   post: " code", caption: "best model so far",                 models: "opus · sonnet · haiku" })}
+  ${stackCard({ x: 328, y: 504, delay: -0.93, label: "second brain",  pre: "",        italic: "codex",    post: "",      caption: "best consultant & reviewer",        models: "gpt-5.4 xhigh" })}
+  ${stackCard({ x: 624, y: 504, delay: -1.87, label: "first love",    pre: "oh-my-",  italic: "opencode", post: "",      caption: "favorite philosophy, open society", models: "glm · kimi · mimo" })}
   <line x1="312" y1="512" x2="312" y2="600" stroke="#D97757" stroke-opacity="0.16" stroke-dasharray="2 4"/>
   <line x1="608" y1="512" x2="608" y2="600" stroke="#D97757" stroke-opacity="0.16" stroke-dasharray="2 4"/>
 
@@ -236,7 +236,7 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <line x1="40" y1="632" x2="860" y2="632" stroke="#D97757" stroke-opacity="0.22"/>
   ${rotatingStar({ x: 48, y: 656, dur: 30 })}
   <text x="64" y="660" class="mono muted" font-size="11" letter-spacing="2">TECH · STACK</text>
-  <text x="844" y="660" class="mono muted" font-size="11" letter-spacing="1.5" text-anchor="end">research · infra · shell</text>
+  <text x="844" y="660" class="mono muted" font-size="11" letter-spacing="1" text-anchor="end">research · infra</text>
 
   ${techStack({ y: 684 })}
 
@@ -266,7 +266,7 @@ function rotatingStar({ x, y, dur }) {
   </g>`;
 }
 
-function stackCard({ x, y, delay, label, name, italic, caption, models }) {
+function stackCard({ x, y, delay, label, pre, italic, post, caption, models }) {
   return `
   <g transform="translate(${x},${y})">
     <circle cx="10" cy="10" r="5" class="coral">
@@ -274,8 +274,8 @@ function stackCard({ x, y, delay, label, name, italic, caption, models }) {
       <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="${delay}s" repeatCount="indefinite"/>
     </circle>
     <circle cx="10" cy="10" r="11" fill="none" stroke="#D97757" stroke-opacity="0.28"/>
-    <text x="32" y="14" class="mono muted" font-size="10" letter-spacing="1.2">${esc(label)}</text>
-    <text y="46" class="serif ink" font-size="26" font-weight="500" letter-spacing="-0.4">${esc(name)}<tspan class="coral" font-style="italic">${esc(italic)}</tspan></text>
+    <text x="32" y="14" class="mono muted" font-size="10" letter-spacing="1">${esc(label)}</text>
+    <text y="46" class="serif ink" font-size="26" font-weight="500" letter-spacing="-0.4">${esc(pre)}<tspan class="coral" font-style="italic">${esc(italic)}</tspan>${esc(post)}</text>
     <line x1="0" y1="58" x2="40" y2="58" stroke="#141413" stroke-width="2"/>
     <text y="76" class="sans muted" font-size="12" font-style="italic">${esc(caption)}</text>
     <text y="92" class="mono ink" font-size="11" fill-opacity="0.72">${esc(models)}</text>
@@ -284,10 +284,10 @@ function stackCard({ x, y, delay, label, name, italic, caption, models }) {
 
 function techStack({ y }) {
   const items = [
-    { name: "PyTorch",    sub: "models" },
-    { name: "JAX",        sub: "research" },
+    { name: "PyTorch",    sub: "most popular" },
+    { name: "JAX",        sub: "leading edge" },
     { name: "TensorFlow", sub: "legacy" },
-    { name: "Docker",     sub: "deploy" },
+    { name: "Docker",     sub: "deploy everywhere" },
     { name: "Nix",        sub: "reproducible" },
   ];
   const cellW = 152;
@@ -300,7 +300,7 @@ function techStack({ y }) {
     <g transform="translate(${startX + i * (cellW + gap)},0)">
       <rect width="${cellW}" height="${rowH}" rx="12" fill="#141413" fill-opacity="0.04" stroke="#D97757" stroke-opacity="0.22"/>
       <text x="${cellW / 2}" y="28" class="serif ink" font-size="20" font-weight="500" letter-spacing="-0.3" text-anchor="middle">${esc(it.name)}</text>
-      <text x="${cellW / 2}" y="46" class="mono muted" font-size="10" letter-spacing="1.4" text-anchor="middle">${esc(it.sub.toUpperCase())}</text>
+      <text x="${cellW / 2}" y="46" class="mono muted" font-size="10" letter-spacing="0.6" text-anchor="middle">${esc(it.sub)}</text>
     </g>`).join("")}
   </g>`;
 }
