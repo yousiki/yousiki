@@ -1,65 +1,85 @@
-<h2 align="left">Hi 👋! This is YouSiki and I'm a PhD student from Peking University, China.</h2>
+<!-- ──────────────────────────────────────────────────────────────
+     yousiki / yousiki
+     a Claude-styled profile · built with vibes, shipped in prose
+     ────────────────────────────────────────────────────────────── -->
 
-###
+<a href="https://github.com/yousiki">
+  <img src="./assets/hero.svg" alt="Hi — I'm YouSiki. PhD student by day, vibe coder by night." width="100%" />
+</a>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yousiki&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&custom_title=YouSiki's%20GitHub%20Stats" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=yousiki&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yousiki&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=8&theme=tokyonight&hide_border=true" height="150" alt="languages graph"  />
-</div>
+<br/>
 
-###
+<p align="center">
+  <a href="https://www.linkedin.com/in/yousiki/"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=FAF9F5&labelColor=141413" alt="linkedin"/></a>
+  <a href="https://x.com/__yousiki__"><img src="https://img.shields.io/badge/twitter-D97757?style=for-the-badge&logo=x&logoColor=FAF9F5&labelColor=141413" alt="twitter"/></a>
+  <a href="https://tokscale.ai/u/yousiki"><img src="https://img.shields.io/badge/tokscale-D97757?style=for-the-badge&logo=anthropic&logoColor=FAF9F5&labelColor=141413" alt="tokscale"/></a>
+</p>
 
-<img align="right" height="230" src="https://avatars.githubusercontent.com/u/18757689?v=4"  />
+<!--                                                                  -->
+<!--  ✳︎  V I B E   C O D I N G   D A S H B O A R D                    -->
+<!--                                                                  -->
 
-###
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="30" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/c++/00599C" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" height="30" alt="matlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" height="30" alt="nixos logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/astro/FF5D01" height="30" alt="astro logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/cloudflare/F38020" height="30" alt="cloudflare logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/neovim/57A143" height="30" alt="neovim logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="30" alt="bash logo"  />
-</div>
+### <kbd>✳︎</kbd>&nbsp;&nbsp;vibe coding dashboard
 
-###
+<table width="100%">
+<tr>
+<td align="left" width="50%"><sub><code>&nbsp;✳︎&nbsp;&nbsp;<b>LIVE</b>&nbsp;·&nbsp;tokscale.ai/u/yousiki</code></sub></td>
+<td align="right" width="50%"><sub><i>every token I've conjured with an agent, counted.</i></sub></td>
+</tr>
+</table>
 
-<img src="https://raw.githubusercontent.com/yousiki/yousiki/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/yousiki/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+<p align="center">
+  <a href="https://tokscale.ai/u/yousiki">
+    <img src="https://tokscale.ai/api/embed/yousiki/svg?theme=light" alt="tokscale profile stats" width="100%"/>
   </a>
-  <a href="https://x.com/__yousiki__" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  </a>
-  <a href="https://www.facebook.com/siki.you.31" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
-  </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/matrix/default.svg" width="52" height="40" alt="matrix logo"  />
-</div>
+</p>
 
-###
+<p align="center">
+  <img src="https://tokscale.ai/api/badge/yousiki/svg?metric=tokens&label=tokens&color=D97757&labelColor=141413&style=for-the-badge" alt="total tokens"/>
+  <img src="https://tokscale.ai/api/badge/yousiki/svg?metric=cost&label=spent&color=C6613F&labelColor=141413&style=for-the-badge" alt="total spent"/>
+  <img src="https://tokscale.ai/api/badge/yousiki/svg?metric=rank&label=rank&color=3D3D3A&labelColor=141413&style=for-the-badge" alt="rank"/>
+</p>
+
+<!--                                                                  -->
+<!--  ✳︎  A G E N T   S T A C K                                        -->
+<!--                                                                  -->
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+### <kbd>✳︎</kbd>&nbsp;&nbsp;daily agent stack
+
+<a href="https://github.com/yousiki">
+  <img src="./assets/agent-stack.svg" alt="Daily agent stack: claude code, oh-my-opencode, codex" width="100%"/>
+</a>
+
+<!--                                                                  -->
+<!--  ✳︎  C O N T R I B U T I O N   C A N V A S                        -->
+<!--                                                                  -->
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+### <kbd>✳︎</kbd>&nbsp;&nbsp;contribution canvas
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yousiki/yousiki/output/snake.svg" alt="contribution snake animation" width="100%"/>
+</p>
+
+<!--                                                                  -->
+<!--  ✳︎  F O O T E R                                                  -->
+<!--                                                                  -->
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+<p align="center">
+  <sub>
+    <code>✳︎</code>&nbsp;&nbsp;crafted with Claude Code&nbsp;·&nbsp;palette borrowed from <a href="https://claude.ai">claude.ai</a>&nbsp;·&nbsp;dashboard powered by <a href="https://tokscale.ai">tokscale</a>
+  </sub>
+</p>
+
+<p align="center">
+  <sub>
+    <code>$&nbsp;claude&nbsp;--continue</code>
+  </sub>
+</p>
