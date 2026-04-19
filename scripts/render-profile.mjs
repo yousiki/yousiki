@@ -317,9 +317,9 @@ function outboundNote({ y }) {
 }
 
 function renderBadge(label, value) {
-  // 208 × 52: sized so four badges + default inline spacing fit on
-  // a single row inside GitHub's ~896px README column.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 52" role="img" aria-label="${esc(label)}: ${esc(value)}" width="208" height="52">
+  // 200 × 52: sized so four badges fit the GitHub profile README
+  // column (narrower than a full page thanks to the sidebar).
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" role="img" aria-label="${esc(label)}: ${esc(value)}" width="200" height="52">
   <defs>
     <linearGradient id="bBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FAF9F5"/>
@@ -330,7 +330,7 @@ function renderBadge(label, value) {
       .mono  { font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace; }
     </style>
   </defs>
-  <rect width="208" height="52" rx="10" fill="url(#bBg)" stroke="#D97757" stroke-opacity="0.28"/>
+  <rect width="200" height="52" rx="10" fill="url(#bBg)" stroke="#D97757" stroke-opacity="0.28"/>
   <path d="M16 26 L18 20 L24 18 L18 16 L16 10 L14 16 L8 18 L14 20 Z" fill="#D97757"/>
   <text x="32" y="22" class="mono" fill="#5E5D59" font-size="10" letter-spacing="1.4">${esc(label)}</text>
   <text x="32" y="40" class="serif" fill="#141413" font-size="16" font-weight="500" letter-spacing="-0.2">${esc(value)}</text>
