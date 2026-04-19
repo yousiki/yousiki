@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Render assets/profile.svg + 4 social badges with live tokscale data,
-// inlining the contribution snake from the output branch.
+// inlining the contribution snake from a local intermediate SVG.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -8,7 +8,7 @@ import path from "node:path";
 const USER = "yousiki";
 const OUT = path.resolve("assets/profile.svg");
 const BADGE_DIR = path.resolve("assets/badges");
-const SNAKE_URL = `https://raw.githubusercontent.com/${USER}/${USER}/output/snake.svg`;
+const SNAKE_PATH = path.resolve("dist/snake.svg");
 
 async function fetchMetric(metric) {
   const url = `https://tokscale.ai/api/badge/${USER}/svg?metric=${metric}`;
@@ -20,11 +20,9 @@ async function fetchMetric(metric) {
   return match[1].trim();
 }
 
-async function fetchSnake() {
+async function readSnake() {
   try {
-    const res = await fetch(SNAKE_URL, { headers: { "cache-control": "no-cache" } });
-    if (!res.ok) return null;
-    return await res.text();
+    return await fs.promises.readFile(SNAKE_PATH, "utf8");
   } catch {
     return null;
   }
@@ -64,7 +62,7 @@ async function main() {
     fetchMetric("tokens"),
     fetchMetric("cost"),
     fetchMetric("rank"),
-    fetchSnake(),
+    readSnake(),
   ]);
 
   const data = {
@@ -75,7 +73,7 @@ async function main() {
     snake: extractSnakeBody(snakeRaw),
   };
 
-  console.log(`tokens=${data.tokens}  cost=${data.cost}  rank=${data.rank}  snake=${data.snake ? "inlined" : "missing"}`);
+  console.log(`tokens=${data.tokens}  cost=${data.cost}  rank=${data.rank}  snake=${data.snake ? `inlined:${SNAKE_PATH}` : `missing:${SNAKE_PATH}`}`);
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, renderProfile(data));

@@ -27,13 +27,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Generate dist/snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?color_snake=%23141413&color_dots=%23F0EEE6,%23EBDBBC,%23D4A27F,%23D97757,%23C6613F
       - name: Render assets/profile.svg
         run: node scripts/render-profile.mjs
       - name: Commit if changed
         run: |
           git config user.name "yousiki-profile-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile.svg
+          git add assets/profile.svg assets/badges/*.svg
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
