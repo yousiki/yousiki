@@ -83,7 +83,7 @@ async function main() {
 
   fs.mkdirSync(BADGE_DIR, { recursive: true });
   const badges = [
-    { file: "website.svg",  label: "WEBSITE",     value: "https://siki.moe" },
+    { file: "website.svg",  label: "WEBSITE",     value: "siki.moe" },
     { file: "linkedin.svg", label: "LINKEDIN",    value: "yousiki" },
     { file: "scholar.svg",  label: "PUBLICATION", value: "google scholar" },
     { file: "twitter.svg",  label: "TWITTER",     value: "@__yousiki__" },
