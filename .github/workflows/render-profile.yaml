@@ -1,0 +1,42 @@
+name: Render profile SVG
+
+on:
+  schedule:
+    # Every 6 hours: 00:05, 06:05, 12:05, 18:05 UTC (offset by 5 min to avoid cron-top load)
+    - cron: "5 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render-profile.mjs
+      - .github/workflows/render-profile.yaml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Render assets/profile.svg
+        run: node scripts/render-profile.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "yousiki-profile-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Refresh profile SVG with latest tokscale data"
+            git push
+          fi
