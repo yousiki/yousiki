@@ -2,7 +2,7 @@ name: Render profile SVG
 
 on:
   schedule:
-    - cron: "21 */1 * * *"
+    - cron: "21 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
