@@ -53,6 +53,19 @@ function formatCost(s) {
   return `$${n.toFixed(2)}`;
 }
 
+function formatTokyoTimestamp(date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(date).reduce((acc, p) => ((acc[p.type] = p.value), acc), {});
+  return `${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute} JST`;
+}
+
 function esc(s) {
   return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
@@ -69,7 +82,7 @@ async function main() {
     tokens: abbrev(tokensRaw),
     cost: formatCost(costRaw),
     rank: rankRaw.startsWith("#") ? rankRaw : `#${rankRaw}`,
-    updatedAt: new Date().toISOString().slice(0, 16).replace("T", " ") + " UTC",
+    updatedAt: formatTokyoTimestamp(new Date()),
     snake: extractSnakeBody(snakeRaw),
   };
 
