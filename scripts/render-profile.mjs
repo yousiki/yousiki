@@ -240,8 +240,8 @@ function renderProfile({ tokens, cost, rank, updatedAt, snake }) {
   <text x="40" y="478" class="mono faint" font-size="11" letter-spacing="2">02<tspan class="muted"> — VIBE CODING STACK</tspan></text>
   <text x="844" y="478" class="mono faint" font-size="11" letter-spacing="1" text-anchor="end">3 · companions</text>
 
-  ${stackCard({ x: 40,  y: 504, delay: 0,     label: "primary agent", pre: "",        italic: "claude",   post: " code", caption: "best model so far",                 models: "opus · sonnet · haiku" })}
-  ${stackCard({ x: 328, y: 504, delay: -0.93, label: "second brain",  pre: "",        italic: "codex",    post: "",      caption: "best consultant & reviewer",        models: "gpt-5.4 xhigh" })}
+  ${stackCard({ x: 40,  y: 504, delay: 0,     label: "primary agent", pre: "",        italic: "claude",   post: " code", caption: "best model so far",                 models: "fable · opus · sonnet" })}
+  ${stackCard({ x: 328, y: 504, delay: -0.93, label: "second brain",  pre: "",        italic: "codex",    post: "",      caption: "best consultant & reviewer",        models: "gpt-5.6 sol" })}
   ${stackCard({ x: 624, y: 504, delay: -1.87, label: "first love",    pre: "oh-my-",  italic: "opencode", post: "",      caption: "favorite philosophy, open society", models: "glm · kimi · mimo" })}
   <line x1="312" y1="512" x2="312" y2="600" stroke="#FFFFFF" stroke-opacity="0.12" stroke-dasharray="2 4"/>
   <line x1="608" y1="512" x2="608" y2="600" stroke="#FFFFFF" stroke-opacity="0.12" stroke-dasharray="2 4"/>
